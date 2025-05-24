@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: demo-app
+  name: pipeline-app-3
 spec:
   selector:
-    app: demo-app
+    app: pipeline-app-3
   ports:
     - protocol: TCP
       port: 80

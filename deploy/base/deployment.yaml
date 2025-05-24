@@ -1,24 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-app
+  name: pipeline-app-3
   labels:
-    app: demo-app
+    app: pipeline-app-3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo-app
+      app: pipeline-app-3
   template:
     metadata:
       labels:
-        app: demo-app
+        app: pipeline-app-3
     spec:
       containers:
-        - name: demo-app
+        - name: pipeline-app-3
           image: marianrap/pipeline-app-3:edf2eee
           ports:
             - containerPort: 8080
-          env:
-            - name: JAVA_OPTS
-              value: "-Xms256m -Xmx512m"
+
