@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: marianrap/pipeline-app-3:ad800bb
+          image: marianrap/pipeline-app-3:20911c8
           ports:
             - containerPort: 8080
 
