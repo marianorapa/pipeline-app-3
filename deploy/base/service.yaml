@@ -7,6 +7,6 @@ spec:
     app: pipeline-app-3
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 8080
+      port: 5000
+      targetPort: 5000
   type: ClusterIP  # or NodePort if no cloud LB available
