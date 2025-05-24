@@ -15,8 +15,8 @@ spec:
         app: pipeline-app-3
     spec:
       containers:
-        - name: pipeline-app-3
-          image: marianrap/pipeline-app-3:edf2eee
+        - name: demo-app
+          image: marianrap/pipeline-app-3:ad800bb
           ports:
             - containerPort: 8080
 
